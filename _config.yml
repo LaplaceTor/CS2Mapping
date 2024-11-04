@@ -1,7 +1,7 @@
 title: CS2Mapping
 
 nav:
-    MainPage : index.md
+    Home: index.md
 
 theme:
   name: material
@@ -23,27 +23,6 @@ theme:
     - content.code.copy
     - content.code.select
     # - toc.integrate
-  palette:
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/link
-        name: Switch to light mode
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: white
-      accent: blue
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: deep purple
-      toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
 
 plugins:
   - search
