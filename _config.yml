@@ -1,5 +1,8 @@
 title: CS2Mapping
 
+nav:
+    MainPage : index.md
+
 theme:
   name: material
   # logo: assets/images.jpeg
