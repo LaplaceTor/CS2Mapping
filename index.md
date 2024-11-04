@@ -1,3 +1,5 @@
 ---
-titile: Something about CS2Mapping 
+hide:
+  - navigation
+  - toc
 ---

@@ -1,2 +1,48 @@
 title: CS2Mapping
 remote-theme: just-the-docs
+
+theme:
+  name: material
+  # logo: assets/images.jpeg
+  # favicon: assets/images.jpeg
+  features:
+    - search.highlight
+    - navigation.tracking
+    - navigation.instant
+    # - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.top
+    - navigation.tabs
+    - navigation.sections
+    - toc.follow
+    - content.action.edit
+    - content.code.copy
+    - content.code.select
+    # - toc.integrate
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+plugins:
+  - search
+  - awesome-pages
